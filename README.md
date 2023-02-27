@@ -1,34 +1,34 @@
 <div align="center">
-	<h1> The Movie Hub </h1>
+	<h1> Rick and Morty Universe </h1>
 </div>
 
 ## Snapshots 📸
 
-![The Movie Hub](https://user-images.githubusercontent.com/60526129/220411598-dbc51236-d078-4781-80f7-82b30f456e22.png)
+![Rick and Morty Universe](https://user-images.githubusercontent.com/60526129/220411598-dbc51236-d078-4781-80f7-82b30f456e22.png)
 
 
 ## Tech Stack ✨
 
-- [React.js](https://reactjs.org/) - UI Library
-- [Tailwind CSS](https://tailwindcss.com/) - Styling and UI
+- [React.js](https://reactjs.org/) - Javascript Library
+- [Tailwind CSS](https://tailwindcss.com/) - Styling Library
 - [Material UI](https://mui.com/) - UI Components
-- [Create React App](https://create-react-app.dev/) - Build tool
+- [Vite](https://vitejs.dev/) - Build tool
 - [Netlify](https://www.netlify.com/) - Hosting and Deployment
 
 ## How to run locally 💻
 
-Follow these steps to run The-Movie-Hub on your local machine.
+Follow these steps to run Rick-And-Morty-Universe on your local machine.
 
 ### Clone this repository
 
 ```bash
-git clone https://github.com/Pappyjay23/the-movie-hub.git
+git clone https://github.com/Pappyjay23/rick-and-morty-universe.git
 ```
 
 ### Navigate to directory
 
 ```bash
-cd the-movie-hub
+cd rick-and-morty-universe
 ```
 
 ### Install NPM
@@ -42,10 +42,10 @@ npm install
 Run the development server to view the app.
 
 ```bash
-npm start
+npm run dev
 ```
 
-Now, you can navigate to http://localhost:3000/ to view the app.
+Now, you can navigate to http://127.0.0.1:5173/ to view the app.
 
 ### Build
 
