@@ -4,8 +4,6 @@
 
 ## Snapshots 📸
 
-![Rick and Morty Universe](https://user-images.githubusercontent.com/60526129/220411598-dbc51236-d078-4781-80f7-82b30f456e22.png)
-
 
 ## Tech Stack ✨
 
