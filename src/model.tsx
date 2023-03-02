@@ -7,3 +7,11 @@ export interface CharacterModel {
     gender: string
     origin: { name: string }
 }
+
+export interface LocationModel {
+    id: number
+    name: string
+    type: string
+    dimension: string
+    residents: []
+}

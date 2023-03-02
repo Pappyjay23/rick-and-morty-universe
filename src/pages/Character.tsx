@@ -22,10 +22,12 @@ const Character = () => {
     const filteredCharacters = characters.filter((c: CharacterModel) =>
         c.name.toLowerCase().includes(search)
     )
-    
 
     return (
         <div className="p-8 max-w-[1000px] mx-auto mt-[65px]">
+            <h2 className="text-center my-4 text-[1.5rem] uppercase font-light tracking-widest">
+                Characters
+            </h2>
             <div className="flex justify-end">
                 <input
                     type="search"
