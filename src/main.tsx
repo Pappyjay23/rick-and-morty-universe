@@ -8,7 +8,7 @@ import location from './features/character'
 
 declare global {
     type RootState = ReturnType<typeof store.getState>
-  }
+}
 const store = configureStore({
     reducer: {
         location: location,

@@ -39,15 +39,16 @@ const Navbar = () => {
                     } duration-300`}
                 >
                     <div className="flex justify-end max-w-[1000px] md:w-[80%] mx-auto">
-                        <span onClick={handleNav} className="cursor-pointer text-xl lg:hidden">
+                        <span
+                            onClick={handleNav}
+                            className="cursor-pointer text-xl lg:hidden"
+                        >
                             <MdClose />
                         </span>
                     </div>
                     <div className="flex flex-col items-center mt-12 gap-12">
                         <Link onClick={handleNav} to="/">
-                            <span className="font-light text-xl">
-                                Home
-                            </span>
+                            <span className="font-light text-xl">Home</span>
                         </Link>
                         <Link onClick={handleNav} to="/characters">
                             <span className="font-light text-xl">
