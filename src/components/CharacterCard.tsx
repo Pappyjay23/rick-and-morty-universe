@@ -9,7 +9,6 @@ const CharacterCard = ({ character }: Props) => {
     return (
         <>
             <div className="relative cursor-pointer block  flex-shrink-0 scale-[.85] hover:scale-[.95] duration-500 bg-[#222935] p-3 rounded-[10px] w-[250px]">
-                <div className="bg-black/40 h-[300px] w-[230px] absolute rounded-[10px]"></div>
                 <img
                     src={character.image}
                     alt="Character"
