@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { addResidentLocation } from '../features/character'
 
 const Home = () => {
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(addResidentLocation(''))
+    }, [])
+    
+
     return (
         <div className="flex  flex-col justify-center items-center h-[100vh]">
             <h1 className="text-[2rem] uppercase font-light tracking-widest">

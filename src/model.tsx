@@ -5,6 +5,8 @@ export interface CharacterModel {
     status: string
     species: string
     gender: string
+    url: string
+    location: { name: string }
     origin: { name: string }
 }
 
