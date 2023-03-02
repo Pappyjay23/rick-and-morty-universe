@@ -38,7 +38,7 @@ const Navbar = () => {
                         nav ? 'left-0' : 'left-[100%]'
                     } duration-300`}
                 >
-                    <div className="flex justify-end">
+                    <div className="flex justify-end max-w-[1000px] md:w-[80%] mx-auto">
                         <span onClick={handleNav} className="cursor-pointer text-xl lg:hidden">
                             <MdClose />
                         </span>

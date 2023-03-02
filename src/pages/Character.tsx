@@ -40,8 +40,8 @@ const Character = () => {
     )
 
     return (
-        <div className="p-8 max-w-[1000px] mx-auto mt-[40px]">
-            <h2 className="text-center my-4 text-[1.5rem] uppercase font-light tracking-widest">
+        <div className="py-4 lg:p-8 max-w-[1000px] mx-auto mt-[60px]">
+            <h2 className="text-center my-4 text-[1.2rem] lg:text-[1.5rem] uppercase font-light tracking-widest">
                 Characters
             </h2>
             <div className="flex justify-center">
