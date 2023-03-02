@@ -24,13 +24,10 @@ const Character = () => {
 
         setCharacters(data.results)
         setNumOfPages(data.info.pages)
-        // console.log(filteredCharacters)
-        // console.log('Characters', data.results)
     }
 
     useEffect(() => {
         getCharacter()
-        // dispatch(addCharacters(characters))
     }, [page])
 
     const filteredCharacters = characters.filter((c: CharacterModel) =>

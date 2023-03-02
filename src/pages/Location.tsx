@@ -18,7 +18,6 @@ const Location = () => {
         )
         setLocations(data.results)
         setNumOfPages(data.info.pages)
-        console.log("Locations", data.results)
     }
 
     useEffect(() => {
